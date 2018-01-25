@@ -1,3 +1,6 @@
+#!/usr/bin/env python3
+#-*- coding: utf-8 -*-
+
 def func(a, b, c=0, *args, **kw):
     """a,b - 必选参数，c - 默认参数, *args - 可变参数, kw - 关键字参数"""
     print('a =', a, 'b =', b, 'c =', c, 'args =', args, 'kw =', kw)
